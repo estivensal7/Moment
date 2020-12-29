@@ -1,28 +1,24 @@
-import React from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ * @flow strict-local
+ */
 
-const App = () => {
+import React from 'react';
+import {SafeAreaView, View, Text} from 'react-native';
+
+const App: () => React$Node = () => {
   return (
     <>
-      <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-        <ScrollView contentInsetAdjustmentBehavior="automatic">
-          <View>
-            <Text>Verified</Text>
-          </View>
-        </ScrollView>
+        <View>
+          <Text>Moment</Text>
+        </View>
       </SafeAreaView>
     </>
   );
 };
-
-const styles = StyleSheet.create({});
 
 export default App;

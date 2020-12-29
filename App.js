@@ -9,14 +9,12 @@
 import React from 'react';
 import {SafeAreaView, View, Text} from 'react-native';
 
+import Login from './src/screens/Login';
+
 const App: () => React$Node = () => {
   return (
     <>
-      <SafeAreaView>
-        <View>
-          <Text>Moment</Text>
-        </View>
-      </SafeAreaView>
+      <Login />
     </>
   );
 };
